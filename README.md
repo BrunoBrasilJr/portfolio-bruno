@@ -22,5 +22,6 @@ npm install
 npm run dev
 Acesse: http://localhost:3000
 
-🌐 Deploy
-(cole aqui o link do Vercel quando estiver pronto)
+## 🌐 Deploy
+
+https://portfolio-bruno-psi.vercel.app
