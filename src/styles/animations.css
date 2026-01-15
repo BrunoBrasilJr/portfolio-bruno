@@ -1,0 +1,26 @@
+/* =============================
+   REVEAL ON SCROLL (estilo Framer Motion)
+   ============================= */
+
+.reveal {
+  transform: translateY(20px);
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
+}
+
+.reveal.is-visible {
+  transform: translateY(0);
+}
+
+/* =============================
+   HOVER DOS CARDS (instantâneo + suave)
+   ============================= */
+
+.project-card {
+  transition: transform 120ms ease-out, box-shadow 120ms ease-out;
+  will-change: transform;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+}
