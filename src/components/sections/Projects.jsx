@@ -32,7 +32,7 @@ export default function Projects() {
           >
             <div>
               <h3 className="text-xl font-semibold mb-2">
-                ClaireFlow - Lading Page
+                ClairFlow - Lading Page
               </h3>
 
               <p className="text-zinc-400 mb-4">
