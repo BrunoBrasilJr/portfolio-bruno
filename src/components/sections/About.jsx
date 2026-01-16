@@ -12,7 +12,8 @@ export default function About() {
         className="
           max-w-6xl mx-auto px-6
           grid md:grid-cols-2 gap-12
-          items-start fade-in-up
+          items-start
+          fade-in-up
         "
       >
         {/* TEXTO */}
@@ -29,8 +30,8 @@ export default function About() {
             Sou desenvolvedor front-end em formação, residente em Sorocaba – SP,
             com foco na criação de interfaces modernas, responsivas e
             acessíveis, sempre priorizando a experiência do usuário (UX) e a
-            qualidade visual (UI). Tenho interesse em transformar ideias em
-            produtos digitais bem estruturados, funcionais e agradáveis de usar.
+            qualidade visual (UI). Busco transformar ideias em produtos digitais
+            bem estruturados, funcionais e agradáveis de usar.
           </p>
 
           <p data-stagger="4" className="text-zinc-400 mb-4">
@@ -43,9 +44,10 @@ export default function About() {
           <p data-stagger="5" className="text-zinc-400">
             Atualmente, curso{" "}
             <strong>Análise e Desenvolvimento de Sistemas</strong> na{" "}
-            <strong>FATEC de Itu</strong>, com conclusão em{" "}
+            <strong>FATEC de Itu</strong>, com conclusão prevista para{" "}
             <strong>2026</strong>, buscando evoluir constantemente minhas
-            habilidades em front-end e boas práticas de desenvolvimento.
+            habilidades em front-end, boas práticas de desenvolvimento e design
+            de interfaces.
           </p>
         </div>
 
@@ -56,19 +58,16 @@ export default function About() {
         >
           <div
             className="
-              w-full max-w-xs sm:max-w-sm
-              md:w-80
+              w-full max-w-xs sm:max-w-sm md:w-80
               aspect-4/5 md:aspect-3/4
               rounded-2xl overflow-hidden
               bg-zinc-800
-              border border-zinc-700
             "
           >
             <img
-              src="/foto-portfolio.jpeg"
-              alt="Bruno Brasil"
+              src="/portfolio-atualizado.png"
+              alt="Harrington"
               className="w-full h-full object-cover"
-              loading="lazy"
             />
           </div>
         </div>
