@@ -1,27 +1,37 @@
-# Portfólio — Bruno Brasil
+# Portfolio Bruno 🌐
 
-Portfólio pessoal desenvolvido com **Next.js** e **Tailwind CSS**, com foco em UI/UX, responsividade e performance.
+Portfólio pessoal front-end desenvolvido para apresentar projetos, habilidades e informações profissionais,
+com foco em layout limpo, boa leitura e navegação simples.
 
-## 🚀 Tecnologias
+---
 
-- Next.js (App Router)
-- React
-- Tailwind CSS
-- JavaScript
+## 🎯 Objetivo do Projeto
+Centralizar projetos e informações profissionais em um único ambiente,
+servindo como apresentação visual e técnica.
 
-## ✅ Funcionalidades
+---
 
-- Seções: Home, Sobre, Projetos e Contato
-- Links diretos (GitHub, LinkedIn, WhatsApp, Email)
+## 🛠 Tecnologias
+- Front-end Web
+- Componentização
 - Layout responsivo
-- Currículo em PDF
+
+---
+
+## ✨ O que o portfólio apresenta
+- Projetos desenvolvidos
+- Stack e habilidades
+- Links de contato
+
+---
 
 ## ▶️ Como rodar localmente
 
+```bash
+git clone https://github.com/BrunoBrasilJr/portfolio-bruno.git
+cd portfolio-bruno
 npm install
 npm run dev
+````
+
 Acesse: http://localhost:3000
-
-## 🌐 Deploy
-
-https://portfolio-bruno-psi.vercel.app
