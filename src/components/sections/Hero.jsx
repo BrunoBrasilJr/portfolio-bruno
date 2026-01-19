@@ -17,7 +17,7 @@ export default function Hero() {
           </p>
 
           <a
-            href="/BrunoBrasil-Curriculo-FrontEnd.pdf"
+            href="/Bruno Brasil - Desenvolvedor Front-end Junior.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="
