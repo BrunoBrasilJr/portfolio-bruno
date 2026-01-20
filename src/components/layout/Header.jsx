@@ -36,10 +36,22 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 w-full z-50 bg-zinc-900/80 backdrop-blur border-b border-zinc-800">
-      <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <span className="font-bold text-zinc-100">Bruno Brasil</span>
+      <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between gap-4">
+        {/* NOME (ajustado pro mobile) */}
+        <span
+          className="
+            font-bold text-zinc-100
+            text-base sm:text-lg
+            whitespace-nowrap
+            max-w-140px sm:max-w-none
+            truncate
+          "
+          title="Bruno Brasil"
+        >
+          Bruno Brasil
+        </span>
 
-        <ul className="flex gap-8">
+        <ul className="flex gap-5 sm:gap-8">
           {sections.map((section) => (
             <li key={section.id}>
               <a

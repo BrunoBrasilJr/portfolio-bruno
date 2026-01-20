@@ -7,17 +7,22 @@ export default function Hero() {
 
           <h1 className="font-bold mb-6 text-5xl md:text-6xl">Bruno Brasil</h1>
 
-          <h2 className="text-zinc-400 mb-8 text-2xl">
-            Desenvolvedor Front-end
+          <h2 className="text-zinc-300 mb-5 text-2xl">
+            Desenvolvedor Front-end focado em interfaces claras, organizadas e
+            centradas no usuário
           </h2>
 
-          <p className="text-zinc-400 max-w-2xl mx-auto mb-10 text-lg">
-            Crio interfaces modernas, responsivas e focadas em experiência do
-            usuário, utilizando React, JavaScript, HTML e CSS.
+          <p className="text-zinc-400 max-w-2xl mx-auto mb-10 text-lg leading-relaxed">
+            Eu construo experiências web com atenção real a{" "}
+            <strong className="text-zinc-200">hierarquia visual</strong>,{" "}
+            <strong className="text-zinc-200">componentização</strong> e{" "}
+            <strong className="text-zinc-200">detalhes de usabilidade</strong>.
+            Meu objetivo é transformar uma ideia em uma interface simples,
+            consistente e agradável de usar.
           </p>
 
           <a
-            href="/Bruno Brasil - Desenvolvedor Front-end Junior.pdf"
+            href="/Bruno Brasil - Desenvolvedor Front-end Júnior.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="
